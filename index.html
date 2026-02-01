@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pink Luxe | Aesthetic Drive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="logo">PINK<span>LUXE</span></div>
+        <ul class="nav-links">
+            <li onclick="showPage('home')">Home</li>
+            <li onclick="showPage('cars')">Cars</li>
+            <li onclick="showPage('interior')">Interior</li>
+            <li onclick="showPage('about')">About</li>
+            <li onclick="showPage('contact')">Contact</li>
+        </ul>
+    </nav>
+
+    <!-- LANDING PAGE (The Cover) -->
+    <div id="landing" class="page active">
+        <div class="hero-box">
+            <h1>LUXE DRIVE</h1>
+            <p>Aesthetic Performance</p>
+            <button class="enter-btn" onclick="showPage('home')">ENTER SHOWROOM</button>
+        </div>
+    </div>
+
+    <!-- HOME PAGE (The Main Picture) -->
+    <div id="home" class="page">
+        <div class="frame img1"></div>
+    </div>
+
+    <!-- CARS PAGE -->
+    <div id="cars" class="page">
+        <div class="grid">
+            <div class="card img2"></div>
+            <div class="card img3"></div>
+        </div>
+        </section>
+
+        <!-- INTERIOR PAGE -->
+        <div id="interior" class="page">
+            <div class="frame img4"></div>
+        </div>
+
+        <!-- ABOUT & CONTACT PAGE -->
+        <div id="about" class="page">
+            <div class="frame img5"></div>
+        </div>
+
+        <div id="contact" class="page">
+            <div class="contact-box">
+                <h2>GET IN TOUCH</h2>
+                <p>Email: pink@luxedrive.com</p>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+</body>
+
+</html>
